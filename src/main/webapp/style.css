@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+nav{
+	display:flex;
+	background-color:black;
+	color:Red;
+	justify-content:space-around;
+	align-items:center;
+}
+
+nav ul{
+	display: flex;
+}
+nav ul{
+	list-style-type:none;
+}
+nav ul li{
+	margin:0 10px;
+	padding:10px 20px;
+}
+nav ul li a:hover{
+	color:yellow;
+}
+nav ul li a{
+	text-decoration:none;
+	color :white;
+}
+body{
+
+  background-image: url('images(1).jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;  
+  background-size: cover;
+
+
+}

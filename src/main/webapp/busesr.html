@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>home</title>
+
+<link rel="Stylesheet"  href="style.css">
+<style>
+body{
+  background-image: url('bus2.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;  
+  background-size: cover;
+
+}
+
+table .center{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+</head>
+<body  >
+
+<nav>
+<h2><i><b>TSK Bus Reservation</b></i></h2>
+<ul>
+<li><a href="busesr.html">Home</a></li>
+
+<li><a href="login1.jsp">Admin</a></li>
+<li><a href="BookList.jsp">Booked Tickets</a></li>
+<li><a href="login.jsp">Login</a></li>
+<li><a href="signup.jsp">Sign up</a></li>
+</ul>
+</nav><br><br><br><br><br><br><br><br>
+<div >
+<td>
+<form action ="busesr" method ="post">
+<table align=center border =1px solid black  text-decoration:none;
+	color :white; >
+<h2 style="color:black;"><i><center>TO SEARCH DESTINATION !!</center></i></h2><br>
+
+
+<tr>
+
+ <td style="color:white;"> FROM :<input type="text" name="from"></td> 
+<td style="color:white;">  TO :<input type ="text" name="to"></td>
+<td style="color:white;">DATE :<input type="date" name="DATE"></td>
+
+<td style="color:white;"> <input type ="submit" value="SEARCH BUS"></td></table>
+</td>
+</tr></table>
+</form>
+</div>
+
+</body>
+</html>
